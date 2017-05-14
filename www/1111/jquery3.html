@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(document).ready(function()
+{ 
+//$('#slovo strong').hide();
+//$('[width]').attr('width','780');
+//$('[title]:first').html(' <h1> текст or NO !!!! </h1>'); // первый элмент на странице
+//$('[title!=rrr]').css({'color':'#0099ff'}); // 					
+//$('[title!=qwrt]').html('<h1> текст or NO !!!! </h1>');
+//$('strong[title~=qwrt]').html('<h1> текст or NO !!!! </h1>');
+$('[title]:last').html('<h1> текст or NO !!!! </h1>');
+$('[title=qas]:header').html('<strong> текст or yesw !!!! </strong>');
+$('div:contains("ужас летящии")').css({'color':'#0099ff'});
+$('p:empty').text('что вставим текст');
+$('div:has(strong)').html('<strong> что было то и будет !!!! </strong>');
+});
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+</head>
+
+<body>
+<a href="#" id="link" title="rrr"> ПРИВЕТ </a> 
+<br/> 
+<a href="#" id="link1"> ПРИВЕТ1 </a>
+<p></p>
+<div id="slovo" >  <strong title="wer">  What </strong> is it   </div>
+<div id="slovo1"> ужас летящии на <strong title="qr">крыльях <h2 title="qas"> что будет из этого </h2> </strong> ветра</div>
+<div id="slovo2"> ужас какойто  на <strong title="qwrt dfgfghgf dfgdh ">деревьях ночи </strong> и ветра</div>
+<img src="1.jpg" id="qwery" width="1024" />
+</body>
+</html>

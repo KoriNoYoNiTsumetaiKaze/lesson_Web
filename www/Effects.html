@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Effects</title>
+<script src="jquery-1.10.2.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(document).ready(
+	function()
+		{
+			$('img#pic1').hide();
+			$('img#pic5').hide();			
+			$('a#link').click(function()
+								{
+									$('img#pic').slideUp(10000);
+									$('img#pic1').slideDown(10000);
+									$('img#pic3').slideToggle(10000);
+									$('img#pic4').fadeOut(10000);
+									$('img#pic5').fadeIn(10000);
+									$('img#pic6').fadeToggle(10000);									
+									$('img#pic2').fadeTo(10000,0.5);
+								}
+							  );
+		}//$(document).ready(function()
+				 );//$(document).ready(
+</script>			
+</head>
+<body>
+<a href="#" id="link">Нажми меня</a>
+<img src="1.jpg" id="pic" width="300px"/>
+<img src="upload/azudem.jpg" id="pic1" width="300px"/>
+<img src="1.jpg" id="pic2" width="300px"/>
+<img src="upload/Koala800x600.jpg" id="pic3" width="300px"/>
+<img src="upload/azudem.jpg" id="pic4" width="300px"/>
+<img src="upload/Koala800x600.jpg" id="pic5" width="300px"/>
+<img src="upload/azudem.jpg" id="pic6" width="300px"/>
+</body>
+</html>

@@ -1,0 +1,37 @@
+[Thu Oct 10 00:48:02 2013] [error] [client 127.0.0.1] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/kaze/news/select.php on line 11
+[Thu Oct 10 00:48:02 2013] [error] [client 127.0.0.1] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kaze/news/select.php on line 15
+[Thu Oct 10 00:48:02 2013] [error] [client 127.0.0.1] File does not exist: /home/kaze/news/favicon.ico
+[Thu Oct 10 00:48:02 2013] [error] [client 127.0.0.1] File does not exist: /home/kaze/news/favicon.ico
+[Thu Oct 10 01:05:26 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/222/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:05:26 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/333/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:05:26 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/1111/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:05:26 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/old_files/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:05:26 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/upload/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:05:26 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/JavaScript/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:05:34 2013] [error] [client 127.0.0.1] Negotiation: discovered file(s) matching request: /home/kaze/news/select (None could be negotiated).
+[Thu Oct 10 01:16:23 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/222/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:16:23 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/333/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:16:23 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/1111/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:16:23 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/old_files/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:16:23 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/upload/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:16:23 2013] [crit] [client 127.0.0.1] (13)Permission denied: /home/kaze/news/JavaScript/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Thu Oct 10 01:48:10 2013] [error] [client 127.0.0.1] Negotiation: discovered file(s) matching request: /home/kaze/news/select (None could be negotiated).
+[Thu Oct 10 02:00:45 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:01:49 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:02:50 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:01 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:04 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:05 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:06 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:06 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:10 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:10 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:11 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:11 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:12 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:13 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:13 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:13 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:14 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:14 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php
+[Thu Oct 10 02:04:15 2013] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: from in /home/kaze/news/insert.php on line 15, referer: http://news.loc/insert.php

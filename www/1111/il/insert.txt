@@ -1,0 +1,1 @@
+INSERT INTO `testsite_uzers`.`polsovateli` (`id`, `fio`, `gendr`, `mail`, `login`, `password`) VALUES (NULL, 'Эдипов Пяток Аристархлвич', 'мужской', 'EPA@bk.ru', '7777era', 'era12345'), (NULL, 'Пушкин Александр Петрович', 'мужской', 'PAPA@gmail.ru', '7777sasha', 'sasha12345');

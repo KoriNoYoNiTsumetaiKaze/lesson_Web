@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
+<title>Документ без названия</title>
+</head>
+
+<body>
+<?php
+if($_POST['ok'])
+{
+$fio2=$_POST['fio'];
+$phone2=$_POST['phone'];
+$text2=$_POST['text'];
+$email2=$_POST['email'];
+$msg="фио: $fio2
+<strong>телефон</strong>: $phone2
+привет: $text2";
+$header="Content-type:text/html;charset:'utf-8'";
+$header.="From:'фио'<email>";
+$header.="Subject:заголовок письма";
+$header.="Content-type:text/html;charset:'utf-8'";
+mail("ilsur@bk.ru", "ucheba", $msg, $header);
+echo "письмо ушло";
+}
+else
+{
+
+?>
+<form action="" method="post">
+FIO<input type="text" name="fio"/>
+<br/>
+Email<input type="text" name="email"/>
+<br/>
+PHONE<input type="text" name="phone"/>
+<br/>
+TEXT<textarea name="text" cols="100" rows="20">
+</textarea>
+<input type="submit" name="ok" value="отправить" />
+<?php
+}
+?>
+</body>
+</html>

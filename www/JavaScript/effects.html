@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+
+<script src="jquery-1.10.2.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+	
+	$(document).ready ( function (){
+								  
+			//$("#iimg").hide ();
+								  
+			$("#ia").click ( function (){
+					
+					/*var t=$("#ia").text ();
+					if (t=="Close") {$("#ia").text ("Open");} 
+					else {$("#ia").text ("Close");}
+					$("#iimg").slideToggle ( 1000)	*/
+					
+					$("#iimg").fadeTo( 1000, 0.1)
+									   });//end of click for link
+		
+			$("#idiv").load ("file888.html #div" );//end of load
+								  });// end of ready
+	
+</script>
+</head>
+
+<body><div id="idiv">
+
+</div>
+<br />
+<a href="#" id="ia"> Open
+</a>
+<br />
+<img src="Lighthouse.jpg" width="200" id="iimg"/>
+</body>
+</html>

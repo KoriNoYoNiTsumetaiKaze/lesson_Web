@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Value</title>
+<script src="jquery-1.10.2.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(document).ready(
+	function()
+		{
+			$('input:radio').focus(function()
+										{
+											$('input:focus').attr("checked","checked");
+											var a	= $('input:checked').attr("value");
+											if (a=="нет")
+												{
+													$('input#txt').css({"background-color":"#00FF00"});
+												}
+												else if  (a=="да")
+													{
+														$('input#txt').css({"background-color":"#FFFFFF"});
+													}
+										}
+									);
+
+			var b	= $('div#box').text();
+			$('div#box1').text(b);
+		}//$(document).ready(function()
+				 );//$(document).ready(
+</script>			
+</head>
+<body>
+<input type="text" id="txt"/>
+<input type="radio" id="radio" name="radio" value="да" checked="checked"/>да
+<input type="radio" id="radio" name="radio" value="нет"/>нет
+<div id="box">
+Text1
+</div>
+<div id="box1">
+Text2
+</div>
+</body>
+</html>

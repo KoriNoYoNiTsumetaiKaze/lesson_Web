@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+}
+#header{
+	height:200px;
+	background-color:#0FC;
+}
+#left{
+	height:500px;
+	width:200px;
+	background-color:#903;
+	position:absolute;
+	left:0;
+}
+#center{
+	height:500px;
+	background-color:#CF0;
+	margin:0 200px;
+}
+#right{
+	height:500px;
+	width:200px;
+	background-color:#6F0;
+	position:absolute;
+	right:0;
+	top:200px;
+}
+#footer{
+	height:30px;
+	background-color:#000;
+	clear:both;
+}

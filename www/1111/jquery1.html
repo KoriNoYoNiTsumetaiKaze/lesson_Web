@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="jquery.js" type="text/javascript">
+</script>
+<style type="text/css">
+.c{ color:#00C;
+	}
+</style>
+<script type="text/javascript">
+$(document).ready(function() 
+	{
+	$('#slovo').hide(); // прячет div
+	$('#link').click(function()
+		{ $('#slovo').show();
+		  $('#slovo').removeClass('c');
+		  $('#qwery').removeAttr('width')
+		  $('#slovo1').css({'color':'#ff0000','font':'24px'})
+		});
+	$('#slovo').prepend('Что тут такое');
+	$('#slovo').append('Что такое');
+	$('#link').before('Что ты хочешь???');
+	$('#link').after('Что ты хочешь сделать???');
+	$('#slovo1').text('текст!!!!'); // вставляет просто текс
+	$('#slovo1').html(' <h1> текст or NO !!!! </h1>'); // kod html
+	$('#qwery').attr('width','780');
+	$('#slovo').addClass('c'); //add classs
+	
+	
+	}); // конец ready
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+</head>
+
+<body>
+<a href="#" id="link"> ПРИВЕТ </a>
+<div id="slovo"> What is it  </div>
+<div id="slovo1"> </div>
+<img src="1.jpg" id="qwery" width="1024" />
+
+</body>
+</html>

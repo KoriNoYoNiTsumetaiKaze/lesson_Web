@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Функции javasrcipt</title>
+<script type="text/javascript">
+function formula()
+{
+	document.forma.pole2.value	= document.forma.pole1.value*5;
+}
+</script>
+</head>
+<body>
+<form name="forma">
+<!--<input type="text" name="pole1" onchange="formula()"/>
+<input type="text" name="pole1" oninput="formula()"/>
+<input type="text" name="pole1" onblur="formula()"/>
+<input type="text" name="pole2" onfocus="formula()"/>-->
+<input type="text" name="pole1" onselect="formula()"/>
+<input type="text" name="pole2"/>
+<input type="button" name="btn" value="BOOM!" onclick="formula()"/>
+<input type="button" name="btn1" value="DOOM!" ondblclick="formula()"/>
+</form>
+</body>
+</html>

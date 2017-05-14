@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>JOuery</title>
+<style>
+.text
+{
+	color:#F0F;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+}
+</style>
+<script src="jquery-1.10.2.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(document).ready(
+	function()
+		{
+			$('div').hide();//спрятать div
+			$('a#link').click(function()
+							{
+								$('div').removeClass("boxclass").show().text("Новый Текст").prepend("Эх... ").append(" иногда").addClass("text");
+								$('a.alink').html("<strong>ЖИР</strong>").before("==> ").after(" <==").css({"color":"#000","font-size":"24px"});
+							}// function click
+						);//click
+			$('img').hover(function()
+							{
+								$('img').attr("src","upload/azudem.jpg").attr("width","900");
+							},function()
+								{
+									$('img').attr("src","upload/Koala800x600.jpg").removeAttr("width");
+								}
+						  );//hover img
+		}//function ready
+				  );//ready
+</script>
+</head>
+<body>
+<div id="box" class="boxclass">
+И так бывает 
+</div>
+<a href="#" id="link" class="alink">В ссылку!</a>
+<p>
+<img src="upload/Koala800x600.jpg" id="pic"/>
+</p>
+<a href="#" id="link1" class="alink">Доп</a>
+</body>
+</html>

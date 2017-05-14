@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>OnMouse</title>
+<script type="text/javascript">
+function pichover()
+{
+	document.kartinka.src	= "upload/Koala800x600.jpg";
+}
+function picout()
+{
+	document.kartinka.src	= "1.jpg";
+}
+</script>
+</head>
+<body onload="pichover()">
+<!--<img src="1.jpg" alt="img" width="800" height="600" name="kartinka" onmouseover="pichover()" onmouseout="picout()"/>-->
+<img src="1.jpg" alt="img" width="800" height="600" name="kartinka" onmousedown="pichover()" onmouseup="picout()"/>
+</body>
+</html>

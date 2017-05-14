@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+<script src="jquery.js" type="text/javascript">
+
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#link').hover(function(){
+	$('#photo1').attr('src','1.jpg')},
+	function(){
+	$('#photo1').attr('src','koala.jpg')	
+		});	// konec hover
+ 	
+	$('#link2').toggle(
+	function(){
+		$('#link2').hide()},
+	function(){
+		$('#link').show()}
+					   );//konec toggle
+						   
+						   
+						   });
+</script>
+</head>
+
+<body>
+<a href ="#" id="link" >text 
+</a><br />
+
+<a href="#" id="link2">chat
+</a>
+<div id="text">text2
+</div>
+<div id="text1">
+</div>
+<img src="photo.jpg" id="photo1"/>
+
+</body>
+</html>

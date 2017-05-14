@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>keypress</title>
+<script src="jquery-1.10.2.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(document).ready(
+	function()
+		{
+			$('input#txt').keypress(function(obj)
+										{
+											$('div#box').append(obj.which+" ");
+										}//$('input#txt').keypress(function(obj)
+									);//$('input#txt').keypress(
+			$('input#txt1').keydown(function(obj)
+										{
+											$('div#box1').append(obj.which+" ");
+										}//$('input#txt1').keypress(function(obj)
+									);//$('input#txt1').keypress(
+			$('input#txt2').keydown(function(obj)
+										{
+											var keycode	= obj.keyCode || obj.which;
+											if (keycode==13)
+												{
+													alert("ПЯТНИЦА 13!!!");
+												}
+											if (keycode==8)
+												{
+													alert("Clearing...");
+												}												
+										}//$('input#txt2').keypress(function(obj)
+									);//$('input#txt2').keypress(
+		}//$(document).ready(function()
+				 );//$(document).ready(
+</script>
+</head>
+<body>
+<div id="box">
+</div>
+<input type="text" id="txt"/>
+<div id="box1">
+</div>
+<input type="text" id="txt1"/>
+<p>
+<input type="text" id="txt2"/>
+</p>
+</body>
+</html>

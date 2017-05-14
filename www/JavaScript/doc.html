@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+<script type="text/javascript">
+	
+	function hasu ()
+	{
+		
+		var vr=new Date();
+		var y=vr.getFullYear();
+		var m=vr.getMonth();
+		var d=vr.getDate();
+		var w=vr.getDay();
+		var h=vr.getHours();
+		var mi=vr.getMinutes();
+		var s=vr.getSeconds();
+		var t=vr.getTime();
+		
+		var vremya=document.getElementById("clock");
+		vremya.innerText=h+":"+mi+":"+s+" data "+d+"."+m+"."+y+" день недели "+w+" секунды "+t;
+		window.setTimeout ("hasu()", 1000);
+	}
+</script>
+</head>
+
+<body onload="hasu()">
+<div id="clock" >
+</div>
+</body>
+</html>

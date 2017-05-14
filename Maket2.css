@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:0;
+	margin:0;
+}
+#cont{
+	width:1200px;
+	margin:0 auto;
+}
+#header{
+	height:200px;
+	background-color:#0FC;
+}
+#left{
+	height:500px;
+	width:200px;
+	float:left;
+	background-color:#903;
+}
+#center{
+	height:500px;
+	width:800px;
+	float:left;
+	background-color:#CF0;
+}
+#right{
+	height:500px;
+	width:200px;
+	float:left;
+	background-color:#6F0;
+}
+#footer{
+	height:30px;
+	background-color:#000;
+	clear:both;
+}

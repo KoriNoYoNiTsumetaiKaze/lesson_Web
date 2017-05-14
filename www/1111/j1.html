@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">.link{ color:#F00} </style>
+<script src="jquery-1.9.1.min.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	$('#w2').hide();
+	$('#w3').hide();
+	$('#q1').click(function()
+						{ $('#w1').show();
+						   $('#w2').hide();
+						   $('#w3').hide();
+						});
+	
+		$('#q2').click(function()
+						{ $('#w2').show();
+						   $('#w1').hide();
+						   $('#w3').hide();
+						});
+			$('#q3').click(function()
+						{ $('#w3').show();
+						   $('#w2').hide();
+						   $('#w1').hide();
+						});
+		$('#w1').click(function()
+						{
+							if($('#w1').attr('value')=='123')
+							{
+						$('#w1').addClass('link');
+						$('#w1').removeAttr('value');
+							}
+						});
+		$('#w2').click(function()
+						{
+							if($('#w2').attr('value')=='456')
+							{
+						$('#w2').addClass('link');
+						$('#w2').removeAttr('value');
+					
+							}
+						});
+		$('#w3').click(function()
+						{
+							if($('#w3').attr('value')=='789')
+							{
+						$('#w3').addClass('link');
+						$('#w3').removeAttr('value');
+							}
+						});
+
+});
+</script>
+<style type="text/css"> .link{background-color:#0F0}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+</head>
+
+<body>
+<form>
+ <p>
+ <input type="radio" name="drink" value="rad1" id="q1"> Пиво<br>
+   <input type="radio" name="drink" value="rad2" id="q2"> Чай<br>
+   <input type="radio" name="drink" value="rad3" id="q3"> Кофе </p>
+   <input type="text" name="fio" id="w1" value="123"  />
+<input type="text" name="number" id="w2"  value="456" />
+<input type="text" name="dsa" id="w3"  value="789" />   
+   </form>
+</body>
+</html>

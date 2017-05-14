@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Документ без названия</title>
+<script  type="text/javascript">
+	function imagechange ()
+	{
+		document.ima1.src="Lighthouse.jpg";
+		}
+		
+	function imagechangeback ()
+	{
+		document.ima1.src="vinnipuh.jpg";
+	}
+	function openwind ()
+	{
+		alert ("Hello!");
+		}
+	function exitwind ()
+	{
+		prompt ("Введите имя");
+	}
+</script>
+
+</head>
+
+<body onload="openwind()" onunload="exitwind()">
+
+<img src="vinnipuh.jpg" name="ima1" onmousemove="imagechange()" onmouseup="imagechangeback ()"/>
+</body>
+</html>
